@@ -34,7 +34,7 @@ class WebViewApp(App):
         self.root_layout = BoxLayout(orientation='vertical')
 
         # --- URL Input and Controls ---
-        self.url_input = TextInput(text='https://www.google.com', multiline=False, size_hint_y=None, height=44)
+        self.url_input = TextInput(text='https://imgur.com/new', multiline=False, size_hint_y=None, height=44)
         self.url_input.bind(on_text_validate=self.load_url)
         
         controls = BoxLayout(size_hint_y=None, height=44)
